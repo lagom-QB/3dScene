@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+Canvas,
+#root{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-color: #282c34;
+  --main-text-color: #fff;
+  --main-hover-color: #61dafb;
+  --main-border-color: #61dafb;
+}
+
+.App {
+  text-align: left;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0 5rem 0 5rem;
+  color: rgb(205, 133, 63);
+  line-height: 3.9rem;
+  text-align: left;
+  font-weight: 600;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: rgb(205, 133, 63);
+  line-height: 5.8rem;
+  text-align: left;
+}
+
+h1 > span {
+  white-space: pre;
+}
