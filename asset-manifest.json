@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/3dScene/static/css/main.e6c13ad2.css",
+    "main.js": "/3dScene/static/js/main.dedf7a58.js",
+    "index.html": "/3dScene/index.html",
+    "main.e6c13ad2.css.map": "/3dScene/static/css/main.e6c13ad2.css.map",
+    "main.dedf7a58.js.map": "/3dScene/static/js/main.dedf7a58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.dedf7a58.js"
+  ]
+}
