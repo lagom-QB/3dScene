@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lagom-QB.github.io/3dScene",
   "dependencies": {
     "@react-three/drei": "^9.80.4",
     "@react-three/fiber": "^8.13.7",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start --env=production",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,7 +36,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "gh-pages": "^6.0.0"
   },
   "browserslist": {
     "production": [
